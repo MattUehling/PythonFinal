@@ -2,6 +2,7 @@ from logic import *
 
 
 def main():
+    """Opens the program """
     application = QApplication([])
     window = logic()
     window.show()
